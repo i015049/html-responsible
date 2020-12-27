@@ -10,20 +10,26 @@ h1{
 }
 
 .box {
-    width: 100px;
+    width: 400px;
     height: 100px;
     background-color: #333;
-
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin-top:  8;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    margin-left: 4px;    
 }
 
 .box:nth-of-type(2) {
   background-color: #aaa;
 }
 
-
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 20px;
+        font-size: 35px;
         color: #aaa;
     }
 
@@ -34,9 +40,4 @@ h1{
     .pcview {
         display: none;
     }
-
-
-
-
-
 }
